@@ -1,0 +1,1 @@
+var modelInfo = {model:"BanlanceCar"};var modelHierarchy=[{model:"BanlanceCar",relativePath:"_internal.html",parent:"null"},];

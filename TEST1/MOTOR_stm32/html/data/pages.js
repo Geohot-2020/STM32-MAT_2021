@@ -1,0 +1,1 @@
+var reportPages = [["Summary","MOTOR_survey.html"],["Subsystem Report","MOTOR_subsystems.html"],["Code Interface Report","MOTOR_interface.html"],["Traceability Report","MOTOR_trace.html"],["Static Code Metrics Report","MOTOR_metrics.html"],["Code Replacements Report","MOTOR_replacements.html"],["Coder Assumptions","MOTOR_coderassumptions.html"]];

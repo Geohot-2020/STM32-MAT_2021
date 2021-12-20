@@ -1,0 +1,6 @@
+[ProjectFiles]
+HeaderPath=D:\Simulink_stm32f4\STM32F407VET6\BalanceCar\Drivers\CMSIS\Core\Include;D:\Simulink_stm32f4\STM32F407VET6\BalanceCar\Drivers\CMSIS\DSP\Include;D:\Simulink_stm32f4\STM32F407VET6\BalanceCar\BanlanceCar\Inc;E:\MATLAB\R2021b\simulink\include;
+[Groups]
+MATLAB=D:\Simulink_stm32f4\STM32F407VET6\BalanceCar\BanlanceCar\Src\BanlanceCar.c;D:\Simulink_stm32f4\STM32F407VET6\BalanceCar\BanlanceCar\Src\BanlanceCar_TIM.c;D:\Simulink_stm32f4\STM32F407VET6\BalanceCar\BanlanceCar\Src\BanlanceCar_USART.c;D:\Simulink_stm32f4\STM32F407VET6\BalanceCar\BanlanceCar\Src\BanlanceCar_data.c;
+[Others]
+Define=MEM_UNIT_BYTES;ARM_MATH_CM4;MemUnit_T:uint8_T;MATLAB_PROJECT;

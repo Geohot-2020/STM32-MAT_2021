@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"testled\startup_stm32f407xx.o"
+"testled\main.o"
+"testled\stm32f4xx_it.o"
+"testled\stm32f4xx_hal_msp.o"
+"testled\stm32f4xx_hal_timebase_tim.o"
+"testled\stm32f4xx_hal_tim.o"
+"testled\stm32f4xx_hal_tim_ex.o"
+"testled\stm32f4xx_hal_rcc.o"
+"testled\stm32f4xx_hal_rcc_ex.o"
+"testled\stm32f4xx_hal_flash.o"
+"testled\stm32f4xx_hal_flash_ex.o"
+"testled\stm32f4xx_hal_flash_ramfunc.o"
+"testled\stm32f4xx_hal_gpio.o"
+"testled\stm32f4xx_hal_dma_ex.o"
+"testled\stm32f4xx_hal_dma.o"
+"testled\stm32f4xx_hal_pwr.o"
+"testled\stm32f4xx_hal_pwr_ex.o"
+"testled\stm32f4xx_hal_cortex.o"
+"testled\stm32f4xx_hal.o"
+"testled\stm32f4xx_hal_exti.o"
+"testled\system_stm32f4xx.o"
+"testled\untitled.o"
+--strict --scatter "testLed\testLed.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "testLed.map" -o testLed\testLed.axf

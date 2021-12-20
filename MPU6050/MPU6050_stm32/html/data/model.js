@@ -1,0 +1,1 @@
+var modelInfo = {model:"MPU6050"};var modelHierarchy=[{model:"MPU6050",relativePath:"_internal.html",parent:"null"},];
